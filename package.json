@@ -1,0 +1,43 @@
+{
+  "name": "force-semver",
+  "description": ":rage: Force non-semver version to semver",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oknoorap/force-semver.git"
+  },
+  "keywords": [
+    "semver",
+    "versioning"
+  ],
+  "author": "oknoorap",
+  "bugs": {
+    "url": "https://github.com/oknoorap/force-semver/issues"
+  },
+  "homepage": "https://github.com/oknoorap/force-semver#readme",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "xo && ava --verbose"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "xo": "^0.18.2"
+  },
+  "ava": {
+    "files": [
+      "test.js"
+    ]
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false
+  },
+  "dependencies": {
+    "semver-regex": "^1.0.0"
+  }
+}
